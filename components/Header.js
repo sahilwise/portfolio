@@ -17,9 +17,10 @@ const Header = () =>{
             <meta name="twitter:site" content="@salnetxyz" />
             <meta name="twitter:creator" content="@salnetxyz" />
             <meta property="og:url" content="http://salnet.xyz/" />
-            <meta property="og:title" content="A Twitter for My Sister" />
-            <meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
-            <meta property="og:image" content="https://www.salnet.xyz/download.jpeg" />
+            <meta property="og:title" content="Sahil's portfolio" />
+            <meta property="og:description" content="Hey, I'm Sahil. Most folks know me as Sal. I'm a Software engineer working remotely. 
+                            I love to build apps that solve real life problems." />
+            <meta property="og:image" content="/download.jpeg" />
             <title>Sal - Sahil</title>
         </>
     )
