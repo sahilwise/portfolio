@@ -20,7 +20,7 @@ const Header = () =>{
             <meta property="og:title" content="Sahil's portfolio" />
             <meta property="og:description" content="Hey, I'm Sahil. Most folks know me as Sal. I'm a Software engineer working remotely. 
                             I love to build apps that solve real life problems." />
-            <meta property="og:image" content="/download.jpeg" />
+            <meta property="og:image" content="https://www.salnet.xyz/download.jpeg" />
             <title>Sal - Sahil</title>
         </>
     )
