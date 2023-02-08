@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Noto Serif Khojki', serif;
+    background-color:#FAF9F6;
+}
