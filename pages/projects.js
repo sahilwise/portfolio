@@ -62,6 +62,69 @@ const Projects = ()=>{
                                     <p className="text-xs text-neutral-600">10th Feb, 23</p>
                                 </header>
                             </article>
+
+                            <article>
+                                <header>
+                                    <h2 className="text-lg text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                        elly.ink
+                                    </h2>
+                                    <p className="text-xs text-neutral-600">14th Feb, 23</p>
+                                </header>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h2 className="text-lg text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                        ytube.click
+                                    </h2>
+                                    <p className="text-xs text-neutral-600">14th Feb, 23</p>
+                                </header>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h2 className="text-lg text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                        reactless.salnet.xyz
+                                    </h2>
+                                    <p className="text-xs text-neutral-600">14th Feb, 23</p>
+                                </header>
+                            </article>
+
+                            
+                            <article>
+                                <header>
+                                    <h2 className="text-lg text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                        kolkata99.elly.ink
+                                    </h2>
+                                    <p className="text-xs text-neutral-600">14th Feb, 23</p>
+                                </header>
+                            </article>
+
+
+                            <article>
+                                <header>
+                                    <h2 className="text-lg text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                        addify.us
+                                    </h2>
+                                    <p className="text-xs text-neutral-600">14th Feb, 23</p>
+                                </header>
+                            </article>
+
                             </section>
 
                         </main>

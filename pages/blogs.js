@@ -38,51 +38,118 @@ const blogs = ()=>{
                             </p>
 
                             <section className="space-y-4">
+                            
                             <article>
                                 <header>
+                                  <Link href="/simple-guide-to-nextjs">
                                     <h2 className="text-lg text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                        Create a personal portfolio site.
+                                    Create a Next.js App with Tailwind CSS.
                                     </h2>
-                                    <p className="text-xs text-neutral-600">9th Feb, 23</p>
+                                    </Link>
+                                    <p className="text-xs text-neutral-600">13th Feb, 23</p>
                                 </header>
                             </article>
 
                             <article>
                                 <header>
+                                  <Link href="/simple-guide-to-nextjs">
                                     <h2 className="text-lg text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                        Nextjs Amplify Authentication.
+                                    Basic Linux Commands Every User Should Know.
                                     </h2>
-                                    <p className="text-xs text-neutral-600">10th Feb, 23</p>
+                                    </Link>
+                                    <p className="text-xs text-neutral-600">13th Feb, 23</p>
                                 </header>
                             </article>
 
                             <article>
                                 <header>
+                                  <Link href="/simple-guide-to-nextjs">
                                     <h2 className="text-lg text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                        Create a whatsapp link generator.
+                                    Advanced HTML Tutorial for Beginners.
                                     </h2>
-                                    <p className="text-xs text-neutral-600">10th Feb, 23</p>
+                                    </Link>
+                                    <p className="text-xs text-neutral-600">13th Feb, 23</p>
                                 </header>
                             </article>
 
                             <article>
                                 <header>
+                                  <Link href="/simple-guide-to-nextjs">
                                     <h2 className="text-lg text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                        Create a sms sending service.
+                                      Send Bulk SMS Using Nodejs.
                                     </h2>
-                                    <p className="text-xs text-neutral-600">12th Feb, 23</p>
+                                    </Link>
+                                    <p className="text-xs text-neutral-600">13th Feb, 23</p>
+                                </header>
+                            </article>
+
+                            <article>
+                                <header>
+                                  <Link href="/simple-guide-to-nextjs">
+                                    <h2 className="text-lg text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                    Open Your Youtube Channel On App .
+                                    </h2>
+                                    </Link>
+                                    <p className="text-xs text-neutral-600">13th Feb, 23</p>
+                                </header>
+                            </article>
+
+
+                            <article>
+                                <header>
+                                  <Link href="/simple-guide-to-nextjs">
+                                    <h2 className="text-lg text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                    Create Your Whatsapp Smart Link .
+                                    </h2>
+                                    </Link>
+                                    <p className="text-xs text-neutral-600">13th Feb, 23</p>
+                                </header>
+                            </article>
+
+
+                            <article>
+                                <header>
+                                  <Link href="/simple-guide-to-nextjs">
+                                    <h2 className="text-lg text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                      Build a React Native App From Scratch.
+                                    </h2>
+                                    </Link>
+                                    <p className="text-xs text-neutral-600">13th Feb, 23</p>
+                                </header>
+                            </article>
+
+                            <article>
+                                <header>
+                                  <Link href="/simple-guide-to-nextjs">
+                                    <h2 className="text-lg text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                      Beginner Guide To React Native Navigation.
+                                    </h2>
+                                    </Link>
+                                    <p className="text-xs text-neutral-600">13th Feb, 23</p>
                                 </header>
                             </article>
 
