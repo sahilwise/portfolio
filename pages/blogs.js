@@ -153,6 +153,20 @@ const blogs = ()=>{
                                 </header>
                             </article>
 
+                            <article>
+                                <header>
+                                  <Link href="/simple-guide-to-nextjs">
+                                    <h2 className="text-lg text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                      Create a twitter intent generator using Nextjs.
+                                    </h2>
+                                    </Link>
+                                    <p className="text-xs text-neutral-600">13th Feb, 23</p>
+                                </header>
+                            </article>
+
 
                             </section>
                             

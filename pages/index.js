@@ -80,7 +80,7 @@ const Home = ()=>{
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                      <Link href={"https://github.com/salnetxyz/portfolio/fork"}>hire on addify</Link>
+                                      <Link href={"https://addify.us/sal"}>hire me on addify</Link>
                                     </h2>
                                     <p className="text-xs text-neutral-600">addify.us/sal</p>
                                 </header>
@@ -92,7 +92,7 @@ const Home = ()=>{
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                      <Link href={"https://github.com/salnetxyz/portfolio/fork"}>follow on twitter</Link>
+                                      <Link href={"https://twitter.com/intent/follow?screen_name=salnetxyz"}>follow on twitter</Link>
                                     </h2>
                                     <p className="text-xs text-neutral-600">twitter.com/salnetxyz</p>
                                 </header>
