@@ -65,7 +65,7 @@ const Home = ()=>{
                               </ul>
                             </div>
                             </div>
-                            <p className="py-5">I am a multifaceted individual with a passion for creativity, Cooking, photography, and coding are just a few of my favorite pursuits.
+                            <p className="py-5">I am a multifaceted individual with a passion for creativity. Cooking, photography, and coding are just a few of my favorite pursuits.
                             <br /><br /> 
                             My love for web development knows no bounds. Whether it's a basic HTML file or a complex application, 
                             I find joy in building for the web.
