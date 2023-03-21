@@ -34,10 +34,9 @@ const Projects = ()=>{
                         </nav>
                         <main>
                             
-                            <p className=" sm:py-2 text-[#FAF9F6]">Some of my cool project. Explore all apps and open source projects.
-                            </p>
+                       
 
-                            <section className="space-y-4">
+                            <section className="space-y-4 py-3">
                             <article>
                                 <header>
                                     <h2 className="text-lg text-neutral-800 flex">
