@@ -37,20 +37,55 @@ const Projects = ()=>{
                        
 
                             <section className="space-y-4 py-3">
-                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
+                            <article onClick={()=>{location.assign('https://salnet.xyz')}} className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
                                     <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                        Portfolio
+                                        salnet.xyz
                                     </h2>
-                                    <p className="text-xs text-neutral-600">This is my portfolio website, built in Nextjs. Download or fork on github.</p>
-                                    <p className="text-xs text-neutral-600">www.salnet.xyz</p>
-                                    <p className="text-xs text-neutral-600 pt-2">8th Feb, 23</p>
+                                    <p className="text-xs text-neutral-500">8th Feb, 23</p>
                                 </header>
                             </article>
                             
+
+                            <article onClick={()=>{location.assign('https://play.google.com/store/apps/details?id=com.salnet.kolkata99')}} className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
+                                <header>
+                                <h2 className="text-xl text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                        Kolkata99 App
+                                    </h2>
+                                    <p className="text-xs text-neutral-700">Explore the city of joy like never before. Download Kolkata99 App now.</p>
+                                    <p className="text-xs text-neutral-500">25th Mar, 23</p>
+                                </header>
+                            </article>
+
+                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
+                                <header>
+                                <h2 className="text-xl text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                        reactless.salnet.xyz
+                                    </h2>
+                                    <p className="text-xs text-neutral-600">10th Feb, 23</p>
+                                </header>
+                            </article>
+
+                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
+                                <header>
+                                <h2 className="text-xl text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                    twitterintent.salnet.xyz
+                                    </h2>
+                                    <p className="text-xs text-neutral-600">14th Feb, 23</p>
+                                </header>
+                            </article>
 
                             <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
@@ -59,30 +94,6 @@ const Projects = ()=>{
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                                         wapp.ink
-                                    </h2>
-                                    <p className="text-xs text-neutral-600">10th Feb, 23</p>
-                                </header>
-                            </article>
-
-                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
-                                <header>
-                                <h2 className="text-xl text-neutral-800 flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                        twitterintent.salnet.xyz
-                                    </h2>
-                                    <p className="text-xs text-neutral-600">10th Feb, 23</p>
-                                </header>
-                            </article>
-
-                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
-                                <header>
-                                <h2 className="text-xl text-neutral-800 flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                        elly.ink
                                     </h2>
                                     <p className="text-xs text-neutral-600">14th Feb, 23</p>
                                 </header>
@@ -100,18 +111,6 @@ const Projects = ()=>{
                                 </header>
                             </article>
 
-                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
-                                <header>
-                                <h2 className="text-xl text-neutral-800 flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                        reactless.salnet.xyz
-                                    </h2>
-                                    <p className="text-xs text-neutral-600">14th Feb, 23</p>
-                                </header>
-                            </article>
-
                             
                             <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
@@ -119,7 +118,7 @@ const Projects = ()=>{
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                        kolkata99.elly.ink
+                                    Franchise Club
                                     </h2>
                                     <p className="text-xs text-neutral-600">14th Feb, 23</p>
                                 </header>
