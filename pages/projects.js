@@ -43,9 +43,10 @@ const Projects = ()=>{
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                        salnet.xyz
+                                        Portfolio
                                     </h2>
                                     <p className="text-xs text-neutral-600">This is my portfolio website, built in Nextjs. Download or fork on github.</p>
+                                    <p className="text-xs text-neutral-600">www.salnet.xyz</p>
                                     <p className="text-xs text-neutral-600 pt-2">8th Feb, 23</p>
                                 </header>
                             </article>
