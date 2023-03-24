@@ -37,22 +37,23 @@ const Projects = ()=>{
                        
 
                             <section className="space-y-4 py-3">
-                            <article>
+                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
-                                    <h2 className="text-lg text-neutral-800 flex">
+                                    <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                                         salnet.xyz
                                     </h2>
-                                    <p className="text-xs text-neutral-600">8th Feb, 23</p>
+                                    <p className="text-xs text-neutral-600">This is my portfolio website, built in Nextjs. Download or fork on github.</p>
+                                    <p className="text-xs text-neutral-600 pt-2">8th Feb, 23</p>
                                 </header>
                             </article>
                             
 
-                            <article>
+                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
-                                    <h2 className="text-lg text-neutral-800 flex">
+                                <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
@@ -62,9 +63,9 @@ const Projects = ()=>{
                                 </header>
                             </article>
 
-                            <article>
+                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
-                                    <h2 className="text-lg text-neutral-800 flex">
+                                <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
@@ -74,9 +75,9 @@ const Projects = ()=>{
                                 </header>
                             </article>
 
-                            <article>
+                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
-                                    <h2 className="text-lg text-neutral-800 flex">
+                                <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
@@ -86,9 +87,9 @@ const Projects = ()=>{
                                 </header>
                             </article>
 
-                            <article>
+                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
-                                    <h2 className="text-lg text-neutral-800 flex">
+                                <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
@@ -98,9 +99,9 @@ const Projects = ()=>{
                                 </header>
                             </article>
 
-                            <article>
+                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
-                                    <h2 className="text-lg text-neutral-800 flex">
+                                <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
@@ -111,9 +112,9 @@ const Projects = ()=>{
                             </article>
 
                             
-                            <article>
+                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
-                                    <h2 className="text-lg text-neutral-800 flex">
+                                <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
@@ -124,9 +125,9 @@ const Projects = ()=>{
                             </article>
 
 
-                            <article>
+                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
-                                    <h2 className="text-lg text-neutral-800 flex">
+                                <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
