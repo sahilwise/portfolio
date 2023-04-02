@@ -34,7 +34,7 @@ const Home = ()=>{
                         </nav>
                         <main>
                             
-                            <p className="py-4">Hey, I'm Slv8 55S. Most folks know me as Sal. I'm a <b>Software engineer</b> working remotely. 
+                            <p className="py-4">Hey, I'm SLV8. Most folks know me as Sal. I'm a <b>Software engineer</b> working remotely. 
                             I love to build apps that solve real life problems.
                             </p>
 
