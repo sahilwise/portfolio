@@ -33,9 +33,9 @@ const blogs = ()=>{
                             <h1 className="text-3xl">Blogs</h1>
                         </nav>
                         <main>
-                            
+                            <p>Coming soon</p>
 
-                            <section className="space-y-4 py-3">
+                            {/* <section className="space-y-4 py-3">
                             
                             <article>
                                 <header>
@@ -166,7 +166,7 @@ const blogs = ()=>{
                             </article>
 
 
-                            </section>
+                            </section> */}
                             
 
                         </main>

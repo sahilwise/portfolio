@@ -43,7 +43,7 @@ const Projects = ()=>{
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                        salnet.xyz
+                                        Portfolio
                                     </h2>
                                     <p className="text-xs text-neutral-500">8th Feb, 23</p>
                                 </header>
@@ -63,43 +63,43 @@ const Projects = ()=>{
                                 </header>
                             </article>
 
-                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
+                            <article onClick={()=>{location.assign('https://wapp.ink')}} className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
                                 <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                        reactless.salnet.xyz
+                                        Wapp.ink
                                     </h2>
-                                    <p className="text-xs text-neutral-600">10th Feb, 23</p>
+                                    <p className="text-xs text-neutral-600">10th Apr, 23</p>
                                 </header>
                             </article>
 
-                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
+                            <article onClick={()=>{location.assign('https://clanbase.site')}} className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
                                 <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                    twitterintent.salnet.xyz
+                                      clasnbase
+                                    </h2>
+                                    <p className="text-xs text-neutral-600">12th Apr, 23</p>
+                                </header>
+                            </article>
+
+                            <article onClick={()=>{location.assign('https://findvc-omega.vercel.app/')}} className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
+                                <header>
+                                <h2 className="text-xl text-neutral-800 flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                        Find vc
                                     </h2>
                                     <p className="text-xs text-neutral-600">14th Feb, 23</p>
                                 </header>
                             </article>
 
-                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
-                                <header>
-                                <h2 className="text-xl text-neutral-800 flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                        wapp.ink
-                                    </h2>
-                                    <p className="text-xs text-neutral-600">14th Feb, 23</p>
-                                </header>
-                            </article>
-
-                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
+                            <article onClick={()=>{location.assign('https://ytube.click')}} className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
                                 <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
@@ -111,21 +111,8 @@ const Projects = ()=>{
                                 </header>
                             </article>
 
-                            
-                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
-                                <header>
-                                <h2 className="text-xl text-neutral-800 flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                    Franchise Club
-                                    </h2>
-                                    <p className="text-xs text-neutral-600">14th Feb, 23</p>
-                                </header>
-                            </article>
 
-
-                            <article className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
+                            <article onClick={()=>{location.assign('https://addify.us')}} className="border px-5 py-3 rounded-xl border-neutral-800 border-b-4">
                                 <header>
                                 <h2 className="text-xl text-neutral-800 flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 -translate-x-1 translate-y-3">
