@@ -9,11 +9,13 @@ const Projects = ()=>{
         <section className="col-span-1 flex sm:justify-center">
             <header className="sm:translate-y-28 translate-y-8 sm:translate-x-12">
               <nav>
+                <Link href={"/"}>
                 <Image
                   src={"/S.png"}
                   width={52}
                   height={52}
                 />
+                </Link>
                 <ul className="sm:py-5 flex inline sm:block space-x-6 sm:space-x-0 lg:space-x-0">
                   {/* <li className="rounded-sm text-black border-b border-neutral-400">about</li> */}
                   <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800 ">about </li></Link>
