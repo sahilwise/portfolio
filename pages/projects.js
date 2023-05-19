@@ -11,6 +11,7 @@ const Projects = ()=>{
               <nav>
                 <Link href={"/"}>
                 <Image
+                 alt="S"
                   src={"/S.png"}
                   width={52}
                   height={52}
