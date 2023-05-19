@@ -20,9 +20,9 @@ const Home = ()=>{
                 <ul className="sm:py-5 flex inline sm:block space-x-6 sm:space-x-0 lg:space-x-0">
                   {/* <li className="rounded-sm text-black border-b border-neutral-400">about</li> */}
                   <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800 border-b border-neutral-500">about </li></Link>
-                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">projects </li></Link>
-                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">travelling</li></Link>
-                  <li className="sm:my-1.5 rounded-sm text-[#FAF9F6]">Destinationnnnnn</li>
+                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">blogs</li></Link>
+                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">contact</li></Link>
+                  <li className="sm:my-1.5 rounded-sm text-[#FAF9F6]">...................</li>
                 </ul>
               </nav>
             </header>
