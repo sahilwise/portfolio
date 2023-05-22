@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
 import Link from "next/link";
+import AppCard from "../components/AppCard";
 const Home = ()=>{
   return(
     <Layout>
@@ -87,6 +88,9 @@ const Home = ()=>{
                                     </h2>
                                 </header>
                             </article>  
+
+
+                            <AppCard />
 
                             </section>
 
