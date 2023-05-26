@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import Image from "next/image";
 import Link from "next/link";
 import AppCard from "../components/AppCard";
+import NewCard from "../components/NewCard";
 const Home = ()=>{
   return(
     <Layout>
@@ -21,7 +22,7 @@ const Home = ()=>{
                 <ul className="sm:py-5 flex inline sm:block space-x-6 sm:space-x-0 lg:space-x-0">
                   {/* <li className="rounded-sm text-black border-b border-neutral-400">about</li> */}
                   <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800 border-b border-neutral-500">about </li></Link>
-                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">blogs</li></Link>
+                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">youtube</li></Link>
                   <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">contact</li></Link>
                   <li className="sm:my-1.5 rounded-sm text-[#FAF9F6]">...................</li>
                 </ul>
@@ -89,8 +90,11 @@ const Home = ()=>{
                                 </header>
                             </article>  
 
-
-                            <AppCard />
+                              <NewCard name={"Instadate"} link={"wapp.ink"} />
+                              <NewCard name={"Wapp"} link={"wapp.ink"} />
+                              <NewCard name={"Ytube"} link={"wapp.ink"} />
+                              <NewCard name={"Unipod"} link={"wapp.ink"} />
+                              <NewCard name={"Spring"} link={"wapp.ink"} />
 
                             </section>
 

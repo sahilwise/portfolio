@@ -1,8 +1,9 @@
 import Image from "next/image";
-const AppCard = ()=>{
+import Link from "next/link";
+const AppCard = ({name, description, link})=>{
         return(
-            <>
-                <article className="border rounded-3xl border border-neutral-700 border-b-4">
+            <div className="pt-4">
+                <article className="border bg-neutral-900 backdrop-blur-3xl rounded-3xl border border-b-4">
                     <main className="grid grid-cols-12">
                        <div className="col-span-2">
                         <Image
@@ -14,18 +15,22 @@ const AppCard = ()=>{
                         />
                        </div>
 
-                       <div className="text-center col-span-8 flex justify-start py-4">
-                            <h3 className="text-2xl">Wapp</h3>
+                       <div className="text-center text-white col-span-8 flex justify-start py-4">
+                            <div className="text-left">
+                            <h3 className="text-2xl">{name}</h3>
+                            <p className="text-sm pt-2">{description}</p>
+                            <p className="text-xs"><Link href={"https://wapp.ink"}>🔗 {link}</Link></p>
+                            </div>
                        </div>
 
 
-                       <div className="grid-cols-2s">
-                            <span>Explore</span>
-                       </div>
+                       {/* <div onClick={()=>{location.assign('https://salnet.xyz')}} className="grid-cols-2s flex justify-center justify-items-center items-center">
+                            <div className="bg-white border border-black border-b-4 px-6 py-2.5 rounded-2xl">Explore</div>
+                       </div> */}
 
                     </main>
                 </article>
-            </>
+            </div>
         )
 }
 
