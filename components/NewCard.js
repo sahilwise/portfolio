@@ -1,4 +1,4 @@
-const NewCard = ()=>{
+const NewCard = ({name, link, description})=>{
         return(
             <>
  <article className="backdrop-blur-xl bg-white/75 ackdrop-brightness-150 rounded-3xl border-2 border-gray-100 bg-white">
@@ -14,11 +14,11 @@ const NewCard = ()=>{
     <div className="mt-5 text-neutral-700">
       <h3 class="font-black text-xl sm:text-2xl">
         <a href="#" class="hover:underline">
-          Instadate
+          {name}
         </a>
       </h3>
 
-     <p className="text-xs">This is instadate</p>
+     <p className="text-xs">{description}</p>
     </div>
   </div>
 
