@@ -1,4 +1,4 @@
-const NewCard = ({name, link, description})=>{
+const NewCard = ({name, link, description, img})=>{
         return(
             <>
  <article className="backdrop-blur-xl bg-white/75 ackdrop-brightness-150 rounded-3xl border-2 border-gray-100 bg-white">
@@ -6,8 +6,8 @@ const NewCard = ({name, link, description})=>{
     <a href="#" className="block shrink-0">
       <img
         alt="Speaker"
-        src="/download.jpeg"
-        className="sm:h-20 sm:w-20 h-16 w-16 object-cover border shadow-lg m-4 rounded-3xl border-b-4 border-l-4"
+        src={`${img}`}
+        className="sm:h-20 sm:w-20 h-16 w-16 object-cover border shadow-sm m-4 rounded-3xl border-b-4 border-l-4"
       />
     </a>
 

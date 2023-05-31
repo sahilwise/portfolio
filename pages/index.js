@@ -107,12 +107,10 @@ const Home = ()=>{
                                 </header>
                             </article>  
 
-                              <NewCard name={"Wapp"} description={"Create your whatsapp smart link with wapp."} link={"wapp.ink"} />
-                              <NewCard name={"Instadate"} description={"Create your whatsapp smart link with wapp."} link={"wapp.ink"} />
-                              <NewCard name={"Mall Map"} description={"Create your whatsapp smart link with wapp."} link={"mallm.app"} />
-                              <NewCard name={"Ytube"} description={"Create your whatsapp smart link with wapp."} link={"wapp.ink"} />
-                              <NewCard name={"Unipod"} description={"Create your whatsapp smart link with wapp."} link={"wapp.ink"} />
-                              <NewCard name={"Spring"} description={"Create your whatsapp smart link with wapp."} link={"wapp.ink"} />
+                              <NewCard img={'k99.png'} name={"Kolkata99"} description={"Explore the city of joy like never before. Download now."} link={"dub.sh/kolkata99"} />
+                              <NewCard img={'instadate.png'} name={"Instadate"} description={"Instagram dating simplified. Create your account now."} link={"wapp.ink"} />
+                              <NewCard img={'mallmap.png'} name={"Mall Map"} description={"Find brands popup store in a shopping mall."} link={"mallm.app"} />
+                              <NewCard img={'bestfranchise.png'} name={"Best Franchise"} description={"Find or list your franchisees. Download our app now."} link={"wapp.ink"} />
 
                             </section>
 
