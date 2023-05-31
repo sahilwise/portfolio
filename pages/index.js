@@ -17,14 +17,15 @@ const Home = ()=>{
                   src={"/S.png"}
                   width={52}
                   height={52}
+                  className=""
                 />
                 </Link>
                 <ul className="sm:py-5 flex inline sm:block space-x-6 sm:space-x-0 lg:space-x-0">
                   {/* <li className="rounded-sm text-black border-b border-neutral-400">about</li> */}
                   <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800 border-b border-neutral-500">about </li></Link>
-                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">tutorials</li></Link>
-                  <li className="sm:my-1.5 rounded-sm text-neutral-800">apps</li>
-                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">contact</li></Link>
+                  <Link href={"/tutorials"}><li className="sm:my-1.5 rounded-sm text-neutral-800">tutorials</li></Link>
+                  <Link href={"/apps"}><li className="sm:my-1.5 rounded-sm text-neutral-800">apps</li></Link>
+                  <Link href={"mailto:hi@salnet.xyz"}><li className="sm:my-1.5 rounded-sm text-neutral-800">contact</li></Link>
 
                 </ul>
               </nav>
@@ -50,8 +51,8 @@ const Home = ()=>{
     <a href="#" className="block shrink-0">
       <img
         alt="Speaker"
-        src="/download.jpeg"
-        className="sm:h-28 sm:w-28 h-24 w-24 object-cover border shadow-lg sm:mr-6 mr-4 rounded-full border-b-4 border-l-4"
+        src="/me.png"
+        className="sm:h-28 sm:w-28 h-24 w-24 object-cover border sm:mr-6 mr-4 rounded-full border-b-4 border-l-4"
       />
     </a>
 
@@ -110,7 +111,7 @@ const Home = ()=>{
                               <NewCard img={'k99.png'} name={"Kolkata99"} description={"Explore the city of joy like never before. Download now."} link={"dub.sh/kolkata99"} />
                               <NewCard img={'instadate.png'} name={"Instadate"} description={"Instagram dating simplified. Create your account now."} link={"wapp.ink"} />
                               <NewCard img={'mallmap.png'} name={"Mall Map"} description={"Find brands popup store in a shopping mall."} link={"mallm.app"} />
-                              <NewCard img={'bestfranchise.png'} name={"Best Franchise"} description={"Find or list your franchisees. Download our app now."} link={"wapp.ink"} />
+                              <NewCard img={'bestfranchise.png'} name={"Best Franchise"} description={"Find or list your franchisees. Download our app now.x"} link={"wapp.ink"} />
 
                             </section>
 
