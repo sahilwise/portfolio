@@ -24,7 +24,7 @@ const Apps = ()=>{
                   {/* <li className="rounded-sm text-black border-b border-neutral-400">about</li> */}
                   <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">about </li></Link>
                   <Link href={"/tutorials"}><li className="sm:my-1.5 rounded-sm text-neutral-800">tutorials</li></Link>
-                  <Link href={"/apps"}><li className="sm:my-1.5 rounded-sm text-neutral-800 border-b border-neutral-500">apps</li></Link>
+                  <Link href={"/apps"}><li className="sm:my-1.5 rounded-sm text-neutral-800  border-b border-neutral-500">apps</li></Link>
                   <Link href={"mailto:hi@salnet.xyz"}><li className="sm:my-1.5 rounded-sm text-neutral-800">contact</li></Link>
 
                 </ul>
@@ -41,10 +41,11 @@ const Apps = ()=>{
                         </nav>
                         <main>
                             
-                            <p className="text-transparent">...................................................................
-                            .......................................................................................
+                            <p className="text-transparent hidden sm:block">Hey, I'm Sahil. Most folks know me as Sal. I'm a <b>Software engineer</b> working remotely. 
+                            I love to build apps that solve real life problems.
                             </p>
-                            <section className="space-y-4">
+
+                            <section className="space-y-4 pt-6 sm:pt-0">
 
                               <NewCard img={'k99.png'} name={"Kolkata99"} description={"Explore the city of joy like never before. Download now."} link={"dub.sh/kolkata99"} />
                               <NewCard img={'instadate.png'} name={"Instadate"} description={"Instagram dating simplified. Create your account now."} link={"wapp.ink"} />
