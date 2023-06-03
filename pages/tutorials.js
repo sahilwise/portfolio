@@ -43,14 +43,18 @@ const Tutorials = ()=>{
                             
                             <p className="text-transparent hidden sm:block">Hey, I'm Sahil. Most folks know me as Sal. I'm a <b>Software engineer</b> working remotely. 
                             I love to build apps that solve real life problems.
+                            
                             </p>
 
                             <section className="space-y-4 pt-6 sm:pt-0">
 
-                              <NewCard img={'k99.png'} name={"Kolkata99"} description={"Explore the city of joy like never before. Download now."} link={"dub.sh/kolkata99"} />
-                              <NewCard img={'instadate.png'} name={"Instadate"} description={"Instagram dating simplified. Create your account now."} link={"wapp.ink"} />
-                              <NewCard img={'mallmap.png'} name={"Mall Map"} description={"Find brands popup store in a shopping mall."} link={"mallm.app"} />
-                              <NewCard img={'bestfranchise.png'} name={"Best Franchise"} description={"Find or list your franchisees. Download our app now.x"} link={"wapp.ink"} />
+                              <NewCard img={'ubuntu.png'} name={"Linux Commands You Need to Know"} description={"Category : Linux"} link={"dub.sh/kolkata99"} />
+                              <NewCard img={'html.png'} name={"HTML Full Course - Beginner to Pro"} description={"Coming soon"} link={"dub.sh/kolkata99"} />
+                              <NewCard img={'css.png'} name={"CSS Full Course - Beginner to Pro"} description={"Coming soon"} link={"dub.sh/kolkata99"} />
+                              <NewCard img={'js.png'} name={"JS Full Course - Beginner to Pro"} description={"Coming soon"} link={"dub.sh/kolkata99"} />
+                              <NewCard img={'reactjs.png'} name={"React.js Full Course - Beginner to Pro"} description={"Coming soon"} link={"dub.sh/kolkata99"} />
+                              <NewCard img={'nextjs.png'} name={"Nextjs Full Course - Beginner to Pro"} description={"Coming soon"} link={"dub.sh/kolkata99"} />
+                              <NewCard img={'reactjs.png'} name={"React Native Full Course - Beginner to Pro"} description={"Coming Soon"} link={"dub.sh/kolkata99"} />
 
                             </section>
 
