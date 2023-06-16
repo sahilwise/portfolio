@@ -1,7 +1,7 @@
 const NewCard = ({name, link, description, img})=>{
         return(
             <>
- <article className="backdrop-blur-xl bg-white/75 ackdrop-brightness-150 rounded-3xl border-2 border-gray-100 bg-white">
+ <article onClick={()=>{location.assign(`${link}`)}} className="backdrop-blur-xl bg-white/75 ackdrop-brightness-150 rounded-3xl border-2 border-gray-100 bg-white">
   <div className="flex items-start">
     <a href="#" className="block shrink-0">
       <img

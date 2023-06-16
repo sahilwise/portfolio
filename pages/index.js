@@ -6,7 +6,7 @@ import NewCard from "../components/NewCard";
 const Home = ()=>{
   return(
     <Layout>
-      <div className="sm:grid sm:grid-cols-4 px-10 sm:px-0">
+      <div className="sm:grid sm:grid-cols-4 px-8 sm:px-0">
 
         <section className="col-span-1 flex sm:justify-center">
            <header className="sm:translate-y-28 translate-y-8 sm:translate-x-12">
@@ -25,7 +25,7 @@ const Home = ()=>{
                   <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800 border-b border-neutral-500">about </li></Link>
                   <Link href={"/tutorials"}><li className="sm:my-1.5 rounded-sm text-neutral-800">tutorials</li></Link>
                   <Link href={"/apps"}><li className="sm:my-1.5 rounded-sm text-neutral-800">apps</li></Link>
-                  <Link href={"mailto:hi@salnet.xyz"}><li className="sm:my-1.5 rounded-sm text-neutral-800">contact</li></Link>
+                  <Link href={"/blogs"}><li className="sm:my-1.5 rounded-sm text-neutral-800">blogs</li></Link>
 
                 </ul>
               </nav>
@@ -108,10 +108,8 @@ const Home = ()=>{
                                 </header>
                             </article>  
 
-                              <NewCard img={'k99.png'} name={"Kolkata99"} description={"Explore the city of joy like never before. Download now."} link={"dub.sh/kolkata99"} />
-                              <NewCard img={'instadate.png'} name={"Instadate"} description={"Instagram dating simplified. Create your account now."} link={"wapp.ink"} />
-                              <NewCard img={'mallmap.png'} name={"Mall Map"} description={"Find brands popup store in a shopping mall."} link={"mallm.app"} />
-                              <NewCard img={'bestfranchise.png'} name={"Best Franchise"} description={"Find or list your franchisees. Download our app now.x"} link={"wapp.ink"} />
+                              <NewCard img={'k99.png'} name={"Kolkata99"} description={"Explore the city of joy like never before. Download now."} link={"https://play.google.com/store/apps/details?id=com.salnet.kolkata99"} />
+                              <NewCard img={'ytube.png'} name={"Ytube"} description={"Grow your youtube channel with Ytube."} link={"https://ytube.click"} />
 
                             </section>
 

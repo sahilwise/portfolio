@@ -1,9 +1,9 @@
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 import Image from "next/image";
 import Link from "next/link";
-import AppCard from "../components/AppCard";
-import NewCard from "../components/NewCard";
-const Apps = ()=>{
+import AppCard from "../../components/AppCard";
+import NewCard from "../../components/NewCard";
+const Blogs = ()=>{
   return(
     <Layout>
       <div className="sm:grid sm:grid-cols-4 px-8 sm:px-0">
@@ -24,9 +24,8 @@ const Apps = ()=>{
                   {/* <li className="rounded-sm text-black border-b border-neutral-400">about</li> */}
                   <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">about </li></Link>
                   <Link href={"/tutorials"}><li className="sm:my-1.5 rounded-sm text-neutral-800">tutorials</li></Link>
-                  <Link href={"/apps"}><li className="sm:my-1.5 rounded-sm text-neutral-800  border-b border-neutral-500">apps</li></Link>
-                  <Link href={"/blogs"}><li className="sm:my-1.5 rounded-sm text-neutral-800">blogs</li></Link>
-
+                  <Link href={"/apps"}><li className="sm:my-1.5 rounded-sm text-neutral-800">apps</li></Link>
+                  <Link href={"/blogs"}><li className="sm:my-1.5 rounded-sm text-neutral-800 border-b border-neutral-500">blogs</li></Link>
                 </ul>
               </nav>
             </header>
@@ -37,21 +36,18 @@ const Apps = ()=>{
                   <article>
                       <header>
                         <nav>
-                            <h1 className="text-3xl">Apps</h1>
+                            <h1 className="text-3xl">Blogs</h1>
                         </nav>
                         <main>
                             
                             <p className="text-transparent hidden sm:block">Hey, I'm Sahil. Most folks know me as Sal. I'm a <b>Software engineer</b> working remotely. 
                             I love to build apps that solve real life problems.
+                            
                             </p>
 
                             <section className="space-y-4 pt-6 sm:pt-0">
-
-                              <NewCard img={'k99.png'} name={"Kolkata99"} description={"Explore the city of joy like never before. Download now."} link={"https://play.google.com/store/apps/details?id=com.salnet.kolkata99"} />
-                              {/* <NewCard img={'instadate.png'} name={"Instadate"} description={"Instagram dating simplified. Create your account now."} link={"wapp.ink"} />
-                              <NewCard img={'mallmap.png'} name={"Mall Map"} description={"Find brands popup store in a shopping mall."} link={"mallm.app"} />
-                              <NewCard img={'bestfranchise.png'} name={"Best Franchise"} description={"Find or list your franchisees. Download our app now.x"} link={"wapp.ink"} /> */}
-
+                              {/* <NewCard img={'terminal.png'} name={"Linux Terminals"} description={"Best Online Linux Terminals and Online Bash Editors."} link={"/blogs/online-linux-terminals"} /> */}
+                              <NewCard img={'ubuntu.png'} name={"Linux Commands"} description={"Top Basic Linux Commands for Beginners with Examples."} link={"/blogs/basic-linux-commands"} />
                             </section>
 
                         </main>
@@ -69,4 +65,4 @@ const Apps = ()=>{
   )
 }
 
-export default Apps;
+export default Blogs;

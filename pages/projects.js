@@ -4,7 +4,7 @@ import Link from "next/link";
 const Projects = ()=>{
   return(
     <Layout>
-      <div className="sm:grid sm:grid-cols-4 px-10 sm:px-0">
+      <div className="sm:grid sm:grid-cols-4 px-8 sm:px-0">
 
         <section className="col-span-1 flex sm:justify-center">
             <header className="sm:translate-y-28 translate-y-8 sm:translate-x-12">
@@ -19,8 +19,9 @@ const Projects = ()=>{
                 </Link>
                 <ul className="sm:py-5 flex inline sm:block space-x-6 sm:space-x-0 lg:space-x-0">
                   {/* <li className="rounded-sm text-black border-b border-neutral-400">about</li> */}
-                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800 ">about </li></Link>
-                  <Link href={"/projects"}><li className="sm:my-1.5 rounded-sm text-neutral-800 border-b border-neutral-500">projects </li></Link>
+                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800 border-b border-neutral-500">about </li></Link>
+                  <Link href={"/tutorials"}><li className="sm:my-1.5 rounded-sm text-neutral-800">tutorials</li></Link>
+                  <Link href={"/apps"}><li className="sm:my-1.5 rounded-sm text-neutral-800">apps</li></Link>
                   <Link href={"/blogs"}><li className="sm:my-1.5 rounded-sm text-neutral-800">blogs</li></Link>
 
                 </ul>
