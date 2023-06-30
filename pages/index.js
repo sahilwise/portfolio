@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import AppCard from "../components/AppCard";
 import NewCard from "../components/NewCard";
+import Script from "next/script";
+
 const Home = ()=>{
   return(
     <Layout>
@@ -109,10 +111,12 @@ const Home = ()=>{
                             </article>  
 
                               <NewCard img={'k99.png'} name={"Kolkata99"} description={"Explore the city of joy like never before. Download now."} link={"https://play.google.com/store/apps/details?id=com.salnet.kolkata99"} />
-                              <NewCard img={'ytube.png'} name={"Ytube"} description={"Grow your youtube channel with Ytube."} link={"https://ytube.click"} />
-
+                              <NewCard img={'ytlogo.png'} name={"Ytube"} description={"Grow your youtube channel with Ytube."} link={"https://ytube.click"} />
+                              <div style={{display: 'flex',justifyContent: 'center',alignItems: 'center', textAlign : 'center'}}>
+                              <Script async data-uid="a67952165b" src="https://salnet.ck.page/a67952165b/index.js" />                       
+                              </div>
                             </section>
-
+                          
                         </main>
                       </header>
                   </article>

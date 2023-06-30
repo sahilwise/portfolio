@@ -54,6 +54,7 @@ const Tutorials = ()=>{
                               <NewCard img={'nextjs.png'} name={"Nextjs Full Course - Beginner to Pro"} description={"Coming soon"} link={"dub.sh/kolkata99"} />
                               <NewCard img={'reactjs.png'} name={"React Native Full Course - Beginner to Pro"} description={"Coming Soon"} link={"dub.sh/kolkata99"} /> */}
                               <NewCard img={'swift.png'} name={"Learn Swift"} description={"Kick off your Swift journey by learning the basics!"} link={"/tutorials/swift"} />
+                              <NewCard img={'git.png'} name={"Learn Git & Github"} description={"Embark on your open-source journey with Git and GitHub."} link={"/tutorials/gitandgithub"} />
 
                             </section>
 

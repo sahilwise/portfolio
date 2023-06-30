@@ -51,7 +51,7 @@ const Apps = ()=>{
                               {/* <NewCard img={'instadate.png'} name={"Instadate"} description={"Instagram dating simplified. Create your account now."} link={"wapp.ink"} />
                               <NewCard img={'mallmap.png'} name={"Mall Map"} description={"Find brands popup store in a shopping mall."} link={"mallm.app"} />
                               <NewCard img={'bestfranchise.png'} name={"Best Franchise"} description={"Find or list your franchisees. Download our app now.x"} link={"wapp.ink"} /> */}
-
+                              <NewCard img={'ytlogo.png'} name={"Ytube"} description={"Your youtube smartlink generator."} link={"https://ytube.click"} />
                             </section>
 
                         </main>
