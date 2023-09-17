@@ -22,10 +22,10 @@ const Blogs = ()=>{
                 </Link>
                 <ul className="sm:py-5 flex inline sm:block space-x-6 sm:space-x-0 lg:space-x-0">
                   {/* <li className="rounded-sm text-black border-b border-neutral-400">about</li> */}
-                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">about </li></Link>
-                  <Link href={"/tutorials"}><li className="sm:my-1.5 rounded-sm text-neutral-800">tutorials</li></Link>
-                  <Link href={"/apps"}><li className="sm:my-1.5 rounded-sm text-neutral-800">apps</li></Link>
-                  <Link href={"/blogs"}><li className="sm:my-1.5 rounded-sm text-neutral-800 border-b border-neutral-500">blogs</li></Link>
+                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">home </li></Link>
+                  <Link href={"/guestbook"}><li className="sm:my-1.5 rounded-sm text-neutral-800">guestbook</li></Link>
+                  <Link href={"/sourcecode"}><li className="sm:my-1.5 rounded-sm text-neutral-800">source code</li></Link>
+                  <Link href={"/blogs"}><li className="sm:my-1.5 rounded-sm text-black border-b border-neutral-200">blogs</li></Link>
                 </ul>
               </nav>
             </header>
@@ -36,7 +36,7 @@ const Blogs = ()=>{
                   <article>
                       <header>
                         <nav>
-                            <h1 className="text-3xl">Blogs</h1>
+                            <h1 className="text-2xl">Blogs</h1>
                         </nav>
                         <main>
                             

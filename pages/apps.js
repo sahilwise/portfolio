@@ -22,7 +22,7 @@ const Apps = ()=>{
                 </Link>
                 <ul className="sm:py-5 flex inline sm:block space-x-6 sm:space-x-0 lg:space-x-0">
                   {/* <li className="rounded-sm text-black border-b border-neutral-400">about</li> */}
-                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">about </li></Link>
+                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">home </li></Link>
                   <Link href={"/tutorials"}><li className="sm:my-1.5 rounded-sm text-neutral-800">tutorials</li></Link>
                   <Link href={"/apps"}><li className="sm:my-1.5 rounded-sm text-neutral-800  border-b border-neutral-500">apps</li></Link>
                   <Link href={"/blogs"}><li className="sm:my-1.5 rounded-sm text-neutral-800">blogs</li></Link>
@@ -52,6 +52,8 @@ const Apps = ()=>{
                               <NewCard img={'mallmap.png'} name={"Mall Map"} description={"Find brands popup store in a shopping mall."} link={"mallm.app"} />
                               <NewCard img={'bestfranchise.png'} name={"Best Franchise"} description={"Find or list your franchisees. Download our app now.x"} link={"wapp.ink"} /> */}
                               <NewCard img={'ytlogo.png'} name={"Ytube"} description={"Your youtube smartlink generator."} link={"https://ytube.click"} />
+                              <NewCard img={'elly.png'} name={"Elly"} description={"Simplify app downloads with Elly, to all app stores"} link={"https://ytube.click"} />
+
                             </section>
 
                         </main>

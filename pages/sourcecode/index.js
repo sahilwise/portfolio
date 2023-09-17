@@ -21,9 +21,9 @@ const Tutorials = ()=>{
                 </Link>
                 <ul className="sm:py-5 flex inline sm:block space-x-6 sm:space-x-0 lg:space-x-0">
                   {/* <li className="rounded-sm text-black border-b border-neutral-400">about</li> */}
-                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">about </li></Link>
-                  <Link href={"/tutorials"}><li className="sm:my-1.5 rounded-sm text-neutral-800 border-b border-neutral-500">tutorials</li></Link>
-                  <Link href={"/apps"}><li className="sm:my-1.5 rounded-sm text-neutral-800">apps</li></Link>
+                  <Link href={"/"}><li className="sm:my-1.5 rounded-sm text-neutral-800">home </li></Link>
+                  <Link href={"/guestbook"}><li className="sm:my-1.5 rounded-sm text-neutral-800">guestbook</li></Link>
+                  <Link href={"/sourcecode"}><li className="sm:my-1.5 rounded-sm text-black border-b border-neutral-200">source code</li></Link>
                   <Link href={"/blogs"}><li className="sm:my-1.5 rounded-sm text-neutral-800">blogs</li></Link>
                 </ul>
               </nav>
@@ -35,7 +35,7 @@ const Tutorials = ()=>{
                   <article>
                       <header>
                         <nav>
-                            <h1 className="text-3xl">Tutorials</h1>
+                            <h1 className="text-2xl">Source Code</h1>
                         </nav>
                         <main>
                             
@@ -53,9 +53,7 @@ const Tutorials = ()=>{
                               <NewCard img={'reactjs.png'} name={"React.js Full Course - Beginner to Pro"} description={"Coming soon"} link={"dub.sh/kolkata99"} />
                               <NewCard img={'nextjs.png'} name={"Nextjs Full Course - Beginner to Pro"} description={"Coming soon"} link={"dub.sh/kolkata99"} />
                               <NewCard img={'reactjs.png'} name={"React Native Full Course - Beginner to Pro"} description={"Coming Soon"} link={"dub.sh/kolkata99"} /> */}
-                              <NewCard img={'swift.png'} name={"Learn Swift"} description={"Kick off your Swift journey by learning the basics!"} link={"/tutorials/swift"} />
-                              <NewCard img={'git.png'} name={"Learn Git & Github"} description={"Embark on your open-source journey with Git and GitHub."} link={"/tutorials/gitandgithub"} />
-
+                              <NewCard img={'swift.png'} name={"Nextjs + Kinde Auth"} description={"In this tutorial, I'll authenticate my Nextjs app using Kinde Auth."} link={"/tutorials/swift"} />
                             </section>
 
                         </main>
